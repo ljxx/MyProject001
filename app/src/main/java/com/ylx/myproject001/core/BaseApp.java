@@ -9,6 +9,8 @@ import com.ylx.myproject001.core.utils.CrashUtils;
 import com.ylx.myproject001.core.utils.SPUtils;
 import com.ylx.myproject001.core.utils.Utils;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by Weiss on 2017/1/10.
  */
@@ -33,6 +35,7 @@ public class BaseApp extends Application {
             // You should not init your app in this process.
             return;
         }
+        ButterKnife.setDebug(true);
         LeakCanary.install(this);
         app=this;
         SPUtils.init(this);

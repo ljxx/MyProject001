@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.content.SharedPreferences;
 import android.os.Build;
 
-import com.github.weiss.core.BuildConfig;
+import com.ylx.myproject001.BuildConfig;
 
 import java.util.Collections;
 import java.util.Map;

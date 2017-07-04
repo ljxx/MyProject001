@@ -17,7 +17,7 @@ package com.ylx.myproject001.core.utils;
 
 import android.util.Log;
 
-import com.github.weiss.core.BuildConfig;
+import com.ylx.myproject001.BuildConfig;
 
 
 /**

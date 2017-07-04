@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <com.ylx.myproject001.core.view.PtrRecyclerView
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
         xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
         android:id="@+id/store_house_ptr_frame"
         android:layout_width="match_parent"
@@ -23,5 +23,5 @@
             android:cacheColorHint="@null"
             android:scrollbars="none"/>
 
-    </com.ylx.myproject001.core.view.PtrRecyclerView>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
 </LinearLayout>

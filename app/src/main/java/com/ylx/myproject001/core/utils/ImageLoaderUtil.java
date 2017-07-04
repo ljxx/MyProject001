@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.target.SizeReadyCallback;
-import com.github.weiss.core.utils.helper.GlideCircleTransform;
+import com.ylx.myproject001.core.utils.helper.GlideCircleTransform;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;

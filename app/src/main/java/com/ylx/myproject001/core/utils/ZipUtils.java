@@ -16,7 +16,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
-import static com.github.weiss.core.utils.ConstUtils.KB;
+import static com.ylx.myproject001.core.utils.ConstUtils.KB;
 
 /**
  * <pre>
